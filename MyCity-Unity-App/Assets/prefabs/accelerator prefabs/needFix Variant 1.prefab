@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2660525614404390269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1348630363906260846}
+  - component: {fileID: 8064903035370800472}
+  - component: {fileID: 4382217941575596449}
+  m_Layer: 0
+  m_Name: needFix Variant 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1348630363906260846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660525614404390269}
+  m_LocalRotation: {x: -0.6054266, y: 0.36860958, z: -0.36608756, w: 0.602964}
+  m_LocalPosition: {x: -480.03558, y: 50.67727, z: 493.908}
+  m_LocalScale: {x: 0.14755228, y: 0.14755228, z: 0.14755228}
+  m_Children:
+  - {fileID: 1113873224658720281}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -27.401001, y: 90.312004, z: -90.07201}
+--- !u!33 &8064903035370800472
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660525614404390269}
+  m_Mesh: {fileID: 525853990749090806, guid: 2c9002df77b1f904094428f80b9c742f, type: 3}
+--- !u!23 &4382217941575596449
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660525614404390269}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 1180005797036002599, guid: 2c9002df77b1f904094428f80b9c742f, type: 3}
+  - {fileID: 586645097001841572, guid: 2c9002df77b1f904094428f80b9c742f, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &583023686035056883
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1348630363906260846}
+    m_Modifications:
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.164972
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 144.2148
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.0080187
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5355328
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.02576843
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.8435959
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.029772758
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -46.807
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 532011069755859658, guid: f4721702211c4ad4b8da1a82fbf28bae,
+        type: 3}
+      propertyPath: m_Name
+      value: CFX3_DarkMagicAura_C
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4721702211c4ad4b8da1a82fbf28bae, type: 3}
+--- !u!4 &1113873224658720281 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 532011069755375338, guid: f4721702211c4ad4b8da1a82fbf28bae,
+    type: 3}
+  m_PrefabInstance: {fileID: 583023686035056883}
+  m_PrefabAsset: {fileID: 0}

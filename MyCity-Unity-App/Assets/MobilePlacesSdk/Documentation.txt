@@ -1,0 +1,26 @@
+It is always preferable to read online documentation as it is always up-to-date
+
+Online Documentation: https://docs.ninevastudios.com/#/unity-plugins/places-sdk
+Support email: info@ninevastudios.com
+Discord Support Channel: https://bit.ly/nineva_support_discord
+
+# Setup
+
+## Android (https://docs.ninevastudios.com/#/unity-plugins/places-sdk?id=setup-android)
+
+## iOS (https://docs.ninevastudios.com/#/unity-plugins/places-sdk?id=setup-ios)
+
+# Plugin functionality
+
+## Place autocomplete screen (https://docs.ninevastudios.com/#/unity-plugins/places-sdk?id=place-autocomplete-screen)
+
+## Find current place (https://docs.ninevastudios.com/#/unity-plugins/places-sdk?id=find-current-place)
+
+## Fetch place (https://docs.ninevastudios.com/#/unity-plugins/places-sdk?id=fetch-place)
+
+## Get place photos (https://docs.ninevastudios.com/#/unity-plugins/places-sdk?id=get-place-photos)
+
+# Other info
+
+iOS getting started page: https://developers.google.com/places/ios-sdk/start#install-manually
+Android getting started page: https://developers.google.com/places/android-sdk/start

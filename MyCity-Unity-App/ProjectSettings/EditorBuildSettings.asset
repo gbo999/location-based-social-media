@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Makaka Games/AR/AR Menu/AR Foundation/Scenes/Menu_ARMenu_ARFoundation.unity
+    guid: a91407924e51642918f4d67d7a2c0e19
+  - enabled: 0
+    path: Assets/Makaka Games/Publisher/Everyday Tools/SceneControl/Scenes/LoadScreen.unity
+    guid: 9ea0e271d27a4df6b952de065414d326
+  - enabled: 0
+    path: Assets/Makaka Games/AR/AR Menu/AR Foundation/Scenes/Demo_ARMenu_ARFoundation_Click.unity
+    guid: b88b3b26520874664a4ee5cd39d6458d
+  - enabled: 0
+    path: Assets/Makaka Games/AR/AR Menu/AR Foundation/Scenes/Demo_ARMenu_ARFoundation_DragAndDrop.unity
+    guid: cea2107f1f82a4807a5425c54e8d1221
+  - enabled: 0
+    path: Assets/GUIPackCartoon/Demo/Scenes/UI Elements.unity
+    guid: 1dcf80d3c577f4e45b5112e6e829e535
+  - enabled: 0
+    path: Assets/GUIPackCartoon/Demo/Scenes/Level.unity
+    guid: a595965d4d0484cc08178d38ac3de3f7
+  - enabled: 0
+    path: Assets/GUIPackCartoon/Demo/Scenes/Icons.unity
+    guid: e1f4977597cf44b14902e8fb958d8b44
+  - enabled: 1
+    path: Assets/main scenes/Scenes/Main.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/TriLib/TriLibSamples/LoadModelFromFilePicker/LoadModelFromFilePicker.unity
+    guid: b7c4e7f97be1f814ba12dd6e678cd360
+  - enabled: 0
+    path: Assets/main scenes/Scenes/PreviewAsset.unity
+    guid: 2dbce3c2ef17e7b4b85d239261ffc1e1
+  - enabled: 0
+    path: Assets/GUIPackCartoon/Demo/Scenes/Home.unity
+    guid: 00f1e0f6b9b97481ea836faf54ec7a60
+  m_configObjects:
+    AR Foundation RemoteARFoundationRemoteLoaderSettings: {fileID: 11400000, guid: 924d7cde82e12a64088e542a7efc6bcb,
+      type: 2}
+    AR Foundation RemoteARFoundationRemoteSessionRecordsData: {fileID: 11400000, guid: 0ac1662e39d64ab4e9538bb3df3e7f85,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c550101574bb9452bb8317a682a6587c,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 703b69d6831d848b793f2b4dc3a4a834,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 51ec30c71c94646868893043542796b8,
+      type: 2}

@@ -1,0 +1,600 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6302910639788138267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6302910639788138266}
+  - component: {fileID: 6302910639788138265}
+  m_Layer: 0
+  m_Name: Key Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6302910639788138266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910639788138267}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6302910640351358922}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6302910639788138265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910639788138267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f768b7afd4612144a9575c4bfd210796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amap: 
+  bingMaps: 
+  googleMaps: AIzaSyDBuLyD7yUX7a6dcvZrL4gaG3M664ke4ek
+  hereApiKey: 
+  hereAppCode: 
+  hereAppID: 
+  mapboxAccessToken: 
+  openRouteService: 
+  qq: 
+  what3Words: 
+--- !u!1 &6302910640351358929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6302910640351358922}
+  - component: {fileID: 6302910640351358923}
+  - component: {fileID: 6302910640351358932}
+  - component: {fileID: 6302910640351358933}
+  - component: {fileID: 6302910640351358934}
+  - component: {fileID: 6302910640351358935}
+  - component: {fileID: 6302910640351358928}
+  - component: {fileID: 6302910640351358921}
+  - component: {fileID: 6302910640351358926}
+  - component: {fileID: 6302910640351358927}
+  - component: {fileID: 6302910640351358920}
+  - component: {fileID: 6302910640351358915}
+  - component: {fileID: 6302910640351358924}
+  - component: {fileID: 6302910640351358925}
+  - component: {fileID: 6302910640351358914}
+  - component: {fileID: 6302910640351358913}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6302910640351358922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6302910639788138266}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6302910640351358923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf484bb098da8c48973c6e0076a9e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowRedraw: 1
+  countParentLevels: 5
+  customProviderURL: 
+  customTrafficProviderURL: http://localhost/{zoom}/{y}/{x}
+  defaultTileTexture: {fileID: 0}
+  dispatchEvents: 1
+  emptyColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  height: 1024
+  labels: 0
+  language: en
+  lockRedraw: 0
+  needRedraw: 1
+  notInteractUnderGUI: 1
+  mapType: virtualearth.road
+  proxyURL: http://service.infinity-code.com/redirect.php?
+  redrawOnPlay: 1
+  renderInThread: 0
+  resourcesPath: OnlineMapsTiles/{zoom}/{x}/{y}
+  streamingAssetsPath: OnlineMapsTiles/{zoom}/{x}/{y}.png
+  showMarkerTooltip: 0
+  source: 0
+  stopPlayingWhenScriptsCompile: 1
+  texture: {fileID: 0}
+  tooltipBackgroundTexture: {fileID: 2800000, guid: a8d1734e646100c4e83635fecf978e15,
+    type: 3}
+  traffic: 0
+  trafficProviderID: googlemaps
+  useCurrentZoomTiles: 0
+  useProxy: 1
+  useSoftwareJPEGDecoder: 0
+  width: 1024
+  _activeTypeSettings: 
+  _zoom: 14
+  latitude: 41.9076499938965
+  longitude: 12.4757499694824
+--- !u!114 &6302910640351358932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b620559b752ba940a1eb34b10dfde7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeTexture: {fileID: 0}
+  allowZoom: 1
+  allowUserControl: 1
+  checkScreenSizeForWheelZoom: 1
+  drawingElementManager: {fileID: 0}
+  isMapDrag: 0
+  invertTouchZoom: 0
+  markerManager: {fileID: 0}
+  smoothZoom: 1
+  zoomInOnDoubleClick: 1
+  zoomMode: 0
+  zoomSensitivity: 1
+  activeCamera: {fileID: 0}
+  marker2DMode: 0
+  marker2DSize: 100
+  marker3DManager: {fileID: 0}
+  originalPosition: {x: 0, y: 0, z: 0}
+  originalScale: {x: 0, y: 0, z: 0}
+  checkMarker2DVisibility: 0
+  elevationResolution: 32
+  markerMaterial: {fileID: 0}
+  markerShader: {fileID: 30, guid: 0000000000000000f000000000000000, type: 0}
+  sizeInScene: {x: 1024, y: 1024}
+  colliderType: 1
+  drawingsGameObject: {fileID: 0}
+  drawingMode: 0
+  drawingShader: {fileID: 4800000, guid: 07fd051d8972c7a4bac96bfa8038d08b, type: 3}
+  tileMaterial: {fileID: 0}
+  tilesetShader: {fileID: 4800000, guid: f65580aa9bbbd7e42b05adab01e1ca2d, type: 3}
+  _mipmapForTiles: 0
+--- !u!114 &6302910640351358933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f2cfe9365da3b4da8d6b60e10f8184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _items: []
+  defaultScale: 1
+  allowAddMarker3DByN: 1
+  defaultPrefab: {fileID: 0}
+--- !u!114 &6302910640351358934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 442db0cd7f5047744a8c79880b32aad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _items: []
+  defaultScale: 1
+  defaultTexture: {fileID: 2800000, guid: ea7eb0aa8eaab054a91d4219f9719f63, type: 3}
+  defaultAlign: 7
+  allowAddMarkerByM: 1
+--- !u!114 &6302910640351358935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3c476c58b6b054d9469cbe6c8fa060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customCacheUnloadRate: 0.3
+  maxCustomCacheSize: 100
+  fileCacheLocation: 0
+  fileCacheCustomPath: 
+  fileCacheTilePath: TileCache/{pid}/{mid}/{lbs}/{lng}/{zoom}/{x}/{y}
+  fileCacheUnloadRate: 0.3
+  maxFileCacheSize: 100
+  useFileCache: 1
+  maxMemoryCacheSize: 10
+  memoryCacheUnloadRate: 0.3
+  useMemoryCache: 1
+--- !u!114 &6302910640351358928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9eae56b73ad0489ec2ae598c5ba8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  marker: {fileID: 2800000, guid: fe32e40839c582346bab93d156aa2a24, type: 3}
+  cleaning: {fileID: 2800000, guid: b92784e1e315d7c40896da4f17b26d60, type: 3}
+  fix: {fileID: 2800000, guid: 29b543d9cf7f6084f96f2c4934abd303, type: 3}
+  exter: {fileID: 2800000, guid: 06391bae5701bce4eb948d5dcabbaf62, type: 3}
+  dumpster: {fileID: 2800000, guid: 232de44a7ea7bc74db0f34748efa57dc, type: 3}
+  bench: {fileID: 2800000, guid: 7afbdb0075c0271478509b307e151273, type: 3}
+  tree: {fileID: 2800000, guid: 77e0103e680fe564e94f51e6af2e94f0, type: 3}
+  sign: {fileID: 2800000, guid: ca8a65b209537de4b9c6b672c77d7177, type: 3}
+  cutting: {fileID: 2800000, guid: 5da0248b92861c540a7b8997a85c0feb, type: 3}
+  light: {fileID: 2800000, guid: 6055cb09840f4f64c95575798bb0e768, type: 3}
+  roundabout: {fileID: 2800000, guid: b4833508fc6dc0648af0b56b4498a2bb, type: 3}
+  crossing: {fileID: 2800000, guid: d17e841cadc5d184e82ea60863e3a366, type: 3}
+  park: {fileID: 2800000, guid: 7a9070231a3ed424ba5f5fb372be9eeb, type: 3}
+  bubble: {fileID: 0}
+  title: {fileID: 0}
+  LikedPostColor: {r: 0.63529414, g: 0.8901961, b: 0.7137255, a: 1}
+  UnLikedPostColor: {r: 1, g: 1, b: 1, a: 1}
+  LikeImage: {fileID: 0}
+  LikesCountBody: {fileID: 0}
+  CommentsObject: {fileID: 0}
+  search: {fileID: 0}
+  CommentsCountBody: {fileID: 0}
+  address: {fileID: 0}
+  comment: {fileID: 0}
+  photo: {fileID: 0}
+  datas:
+  - title: Twenty One Hotel
+    address: Via Cola di Rienzo, 23, Roma
+    photo_url: https://tophotels.ru/icache/hotel_photos/75/515/59811/548937_246x246.jpg
+    longitude: 12.4691696166992
+    latitude: 41.9090957641602
+  - title: Grand Hotel Palatino
+    address: Via Cavour, 213/M, Roma
+    photo_url: https://pix10.agoda.net/hotelImages/453/4533/4533_15061514440029537057.jpg?s=1024x768
+    longitude: 12.4922800064087
+    latitude: 41.8945159912109
+  - title: Radisson Blu es. Hotel, Rome
+    address: Via Filippo Turati, 171, Roma
+    photo_url: http://romaluxury.com/wp-content/uploads/2017/10/Radisson-blu-es-hotel_luxury_hotel_in_rome_photo3.png.jpg
+    longitude: 12.5058422088623
+    latitude: 41.896728515625
+  - title: Hotel Des Artistes
+    address: Via Villafranca, 20, Roma
+    photo_url: https://avatars.mds.yandex.net/get-altay/1524599/2a00000169ce9a2f6e6ad975562c16be22f6/XXXL
+    longitude: 12.5052251815796
+    latitude: 41.9051475524902
+  - title: Best Western Plus Hotel Universo
+    address: Via Principe Amedeo, 5/B, Roma
+    photo_url: https://media-cdn.tripadvisor.com/media/photo-s/13/66/dc/71/exterior.jpg
+    longitude: 12.4974508285522
+    latitude: 41.9002151489258
+  - title: gedera
+    address: Via Principe Amedeo, 5/B, Roma
+    photo_url: https://media-cdn.tripadvisor.com/media/photo-s/13/66/dc/71/exterior.jpg
+    longitude: 34.785861
+    latitude: 31.811426
+  panoConnector: {fileID: 6302910640351358920}
+--- !u!114 &6302910640351358921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 906a57edadeceae499f4f1626c990b84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  adjustTo: 0
+  adjustToGameObject: {fileID: 0}
+  distance: 500
+  maxRotationX: 80
+  rotation: {x: 0, y: 0}
+  speed: {x: 0, y: 0}
+  lockTilt: 0
+  lockPan: 0
+--- !u!114 &6302910640351358926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ffec9e052721149ba77aee38cf99d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cleaning: {fileID: 2800000, guid: b92784e1e315d7c40896da4f17b26d60, type: 3}
+  fix: {fileID: 2800000, guid: 29b543d9cf7f6084f96f2c4934abd303, type: 3}
+  Pesticide: {fileID: 2800000, guid: 06391bae5701bce4eb948d5dcabbaf62, type: 3}
+  dumpster: {fileID: 2800000, guid: 232de44a7ea7bc74db0f34748efa57dc, type: 3}
+  bench: {fileID: 2800000, guid: 7afbdb0075c0271478509b307e151273, type: 3}
+  tree: {fileID: 2800000, guid: 77e0103e680fe564e94f51e6af2e94f0, type: 3}
+  sign: {fileID: 2800000, guid: ca8a65b209537de4b9c6b672c77d7177, type: 3}
+  cutting: {fileID: 2800000, guid: 5da0248b92861c540a7b8997a85c0feb, type: 3}
+  lighting: {fileID: 2800000, guid: 6055cb09840f4f64c95575798bb0e768, type: 3}
+  roundabout: {fileID: 2800000, guid: b4833508fc6dc0648af0b56b4498a2bb, type: 3}
+  crossing: {fileID: 2800000, guid: d17e841cadc5d184e82ea60863e3a366, type: 3}
+  park: {fileID: 2800000, guid: 7a9070231a3ed424ba5f5fb372be9eeb, type: 3}
+  selected: {fileID: 2800000, guid: b92784e1e315d7c40896da4f17b26d60, type: 3}
+  prefab: {fileID: 0}
+  panoConnector: {fileID: 6302910640351358920}
+--- !u!114 &6302910640351358927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af00a6cd9e483fe41b3b16df2671555f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panoConnector: {fileID: 6302910640351358920}
+  hotSpotPrefabs: []
+  sizeDistanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 10
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 100
+      value: 0.1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1000
+      value: 0.01
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DebugText: {fileID: 0}
+  prefab: {fileID: 5085064507310254204, guid: 80cd85e97c4f35e4ea8738c75a6ccfc3, type: 3}
+  LikedPostColor: {r: 0.63529414, g: 0.8901961, b: 0.7137255, a: 1}
+  UnLikedPostColor: {r: 1, g: 1, b: 1, a: 1}
+  LikeImage: {fileID: 0}
+  LikesCountBody: {fileID: 0}
+  CommentsObject: {fileID: 0}
+  search: {fileID: 0}
+  CommentsCountBody: {fileID: 0}
+  owner: {fileID: 0}
+  cleaningpano: {fileID: 7395298523196540306, guid: a44283958eb0d684ca946f7a39312097,
+    type: 3}
+  fixStreetViewpano: {fileID: 5384085539591671337, guid: 6643e25c2f89bf949825744dfddc0ef9,
+    type: 3}
+  PesticideStreetViewpano: {fileID: 7612391115178954184, guid: 7c68bd92df73c5243b4acd90f59f7aa4,
+    type: 3}
+  dumpsterStreetViewpano: {fileID: 1340252482770427671, guid: addf423c537b50a4087bc21b30bc903c,
+    type: 3}
+  benchStreetViewpano: {fileID: 6049427263252461213, guid: b00b682aca718674a9d3d1bb3d634577,
+    type: 3}
+  treeStreetViewpano: {fileID: 6636472751073990, guid: 289b4515ced14204a87d1ddf404a39fe,
+    type: 3}
+  signStreetViewpano: {fileID: 8969242816033751992, guid: 4b58be3b4a181394282251a738db3701,
+    type: 3}
+  cuttingStreetViewpano: {fileID: 3997687899531981076, guid: 3054ed120461dad41855409604217185,
+    type: 3}
+  lightingStreetViewpano: {fileID: 4341241891724519920, guid: 5b4a9a2f2916a2d4a896e26473b64d38,
+    type: 3}
+  roundaboutStreetViewpano: {fileID: 8380411291132092426, guid: 4f7db0fa4a381bb49b237bf2e7c3a943,
+    type: 3}
+  crossingStreetViewpano: {fileID: 1799588094092202560, guid: 87af92118b063ca4686cc733f7023af6,
+    type: 3}
+  parkStreetViewpano: {fileID: 7281671668925678879, guid: 0c2fe85faf85be94e8affa19ca9c1f6e,
+    type: 3}
+--- !u!114 &6302910640351358920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c7cbeab85c59144bed474eb9aad7bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  googleApiKey: AIzaSyDBuLyD7yUX7a6dcvZrL4gaG3M664ke4ek
+  minZoom: 10
+  panoramaMaxZoom: 3
+  usePreview: 1
+  checkOverlayColor: 1
+  useRotation: 1
+  overlayLayer: 0
+  nextDirectionPrefab: {fileID: 1720524859474734, guid: 1d51fddf67daaa14abdb87a0eff90d3d,
+    type: 3}
+  closeButtonPrefab: {fileID: 0}
+  closeByKeyCode: 27
+  radius: 10
+  segments: 32
+  shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  beforeTransitionPrefab: {fileID: 0}
+  afterTransitionPrefab: {fileID: 0}
+  useGlobalTransitions: 1
+  showPanoramaTransition: 1
+  closePanoramaTransition: 1
+--- !u!114 &6302910640351358915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aa46620685fb594b95cf3c41bc7470c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panoConnector: {fileID: 6302910640351358920}
+  rayLength: 0
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
+  cleaningpano: {fileID: 7395298523196540306, guid: a44283958eb0d684ca946f7a39312097,
+    type: 3}
+  fixStreetViewpano: {fileID: 5384085539591671337, guid: 6643e25c2f89bf949825744dfddc0ef9,
+    type: 3}
+  PesticideStreetViewpano: {fileID: 7612391115178954184, guid: 7c68bd92df73c5243b4acd90f59f7aa4,
+    type: 3}
+  dumpsterStreetViewpano: {fileID: 1340252482770427671, guid: addf423c537b50a4087bc21b30bc903c,
+    type: 3}
+  benchStreetViewpano: {fileID: 6049427263252461213, guid: b00b682aca718674a9d3d1bb3d634577,
+    type: 3}
+  treeStreetViewpano: {fileID: 6636472751073990, guid: 289b4515ced14204a87d1ddf404a39fe,
+    type: 3}
+  signStreetViewpano: {fileID: 8969242816033751992, guid: 4b58be3b4a181394282251a738db3701,
+    type: 3}
+  cuttingStreetViewpano: {fileID: 3997687899531981076, guid: 3054ed120461dad41855409604217185,
+    type: 3}
+  lightingStreetViewpano: {fileID: 4341241891724519920, guid: 5b4a9a2f2916a2d4a896e26473b64d38,
+    type: 3}
+  roundaboutStreetViewpano: {fileID: 8380411291132092426, guid: 4f7db0fa4a381bb49b237bf2e7c3a943,
+    type: 3}
+  crossingStreetViewpano: {fileID: 1799588094092202560, guid: 87af92118b063ca4686cc733f7023af6,
+    type: 3}
+  parkStreetViewpano: {fileID: 7281671668925678879, guid: 0c2fe85faf85be94e8affa19ca9c1f6e,
+    type: 3}
+--- !u!114 &6302910640351358924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f9052b8f1255a04b9d0402333b78a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoStopUpdateOnInput: 1
+  compassThreshold: 8
+  createMarkerInUserPosition: 0
+  disableEmulatorInPublish: 1
+  emulatorCompass: 0
+  emulatorPosition: {x: 0, y: 0}
+  findLocationByIP: 0
+  lerpCompassValue: 1
+  markerScale: 1
+  markerTooltip: 
+  markerType: 0
+  marker2DAlign: 4
+  marker2DTexture: {fileID: 0}
+  marker3DPrefab: {fileID: 0}
+  marker3DSizeType: 0
+  maxPositionCount: 3
+  position: {x: 0, y: 0}
+  restoreAfter: 10
+  rotateCameraByCompass: 0
+  trueHeading: 0
+  updatePosition: 1
+  useCompassForMarker: 0
+  useGPSEmulator: 0
+  desiredAccuracy: 10
+  requestPermissionRuntime: 1
+  updateDistance: 10
+--- !u!114 &6302910640351358925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc007350cbc5de429b682da5e2f9e57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  current: {fileID: 2800000, guid: ea7eb0aa8eaab054a91d4219f9719f63, type: 3}
+--- !u!114 &6302910640351358914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec3de9bb6cb1444db0878517f201e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6302910640351358913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302910640351358929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae58e39f972ca084d8c62714b83770c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

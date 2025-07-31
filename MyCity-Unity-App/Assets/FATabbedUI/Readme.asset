@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 3f587523b5ca2f04288158f846a08d8f, type: 3}
+  iconMaxWidth: 128
+  title: Tabbed UI Navigation
+  sections:
+  - heading: Welcome
+    linkText: 
+    url: 
+    lines:
+    - Thank you for using our asset. Please take a look at our MainMenuDemo scene
+      to get to know the asset.
+  - heading: Performance
+    linkText: Nested Canvases Tutorial
+    url: https://learn.unity.com/tutorial/nested-canvas-optimization-2018-4
+    lines:
+    - Please use nested canvases. You will notice in our MainMenuDemo that each page
+      is its own canvas. This will highly increase performance.
+  - heading: Documentation
+    linkText: Link
+    url: http://fun-attic.com/TNUIReference/topic_0000000000000000.html
+    lines: []
+  - heading: Usage
+    linkText: 
+    url: 
+    lines:
+    - To simply use a scrollable UI, you can just add the FAScrollSnapBehaviour script
+      on your scroll view, and play with the settings to achieve your desired speed
+      or size.
+  - heading: Tab Bar (Bottom Toolbar)
+    linkText: 
+    url: 
+    lines:
+    - To include the bottom toolbar drag and drop the Bottom Toolbar prefab into
+      your canvas. The only required thing is to drag the FAScrollSnapBehaviour object
+      into the Scroll Snap Rect property of the FATabBar script.
+    - The tab bar can have any number of child buttons, but for obvious reason that
+      number should be the same of the number of pages in the scroll view.
+  - heading: Nested Scrolls
+    linkText: 
+    url: 
+    lines:
+    - This asset includes functionality for nested scroll views.
+    - When you are setting up your nested scrolls, replace unity's built-in ScrollRect
+      component with our FaScrollRect and remember to drag your inner scrolls into
+      the FAScrollSnapBehaviour properties.
+  - heading: Flexible Design
+    linkText: 
+    url: 
+    lines:
+    - The FAScrollSnapBehaviour script is super flexible and can be used in other
+      systems like Level Selection for example.
+    - Please check out our Demo Scenes to see the script in action.
+  loadedLayout: 0
