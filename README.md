@@ -1,16 +1,10 @@
 # 🌍 MyCity - Location-Based Social Media Platform
 
-> **Portfolio Project** | Unity AR Mobile Development | Firebase Backend Integration
+> **Dual System Integration**: A comprehensive Unity application combining location-based social networking with AR city improvements
 
-## 📱 Overview
-
-MyCity combines a **complete social media platform** with **AR-based city improvement visualization**:
-
-### 🌟 **Dual System Architecture**
-1. **📱 Social Media Platform** (SocialAppTemplate) - Complete location-based social networking with friends, messaging, posts, and groups
-2. **🏗️ AR City Improvements** (AR scripts) - Place AR objects representing city improvements at real-world locations
-
-This allows users to **socialize** within their community AND **visualize proposed city improvements** through augmented reality at specific GPS coordinates.
+[![Unity](https://img.shields.io/badge/Unity-2020.3+-black.svg?style=for-the-badge&logo=unity)](https://unity.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-Cloud%20Services-orange.svg?style=for-the-badge&logo=firebase)](https://firebase.google.com/)
+[![AR Foundation](https://img.shields.io/badge/AR%20Foundation-Location%20Based-blue.svg?style=for-the-badge)](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.2/manual/index.html)
 
 ## 🎬 Project Demonstration
 
@@ -18,17 +12,21 @@ This allows users to **socialize** within their community AND **visualize propos
 
 #### 📱 **Social Media Features**
 
-[![Social Media Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Social%20Media%20Features-blue?style=for-the-badge)](./with%20participate%20and%20vote-small%20size.mp4)
+<p align="center">
+  <img src="./with participate and vote-small size.gif" width="400" alt="Social Media Demo">
+</p>
 
 > Complete demonstration of social networking functionality including user participation and voting features
 
 #### 🏗️ **AR Improvements System** 
 
-[![AR Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-AR%20Object%20Placement-green?style=for-the-badge)](./Untitled%20design.mp4)
+<p align="center">
+  <img src="./Untitled design (2) (1).gif" width="400" alt="AR Demo">
+</p>
 
 > AR improvements demonstration showing 3D object placement at real-world locations
 
-*Note: The GIFs above show the complete MyCity application in action with both social media and AR features.*
+
 
 ### 🖼️ Key Screenshots
 *Add your app screenshots here to showcase the UI and main features*
@@ -158,7 +156,7 @@ MyCity allows users to **visualize potential city improvements** using augmented
 ### 🛠️ Technology Stack
 - **Unity 2020.3+** - Cross-platform game engine
 - **Firebase Realtime Database** - Real-time data synchronization
-- **Firebase Authentication** - User management and security
+- **Firebase Authentication** - User management
 - **Firebase Storage** - Media file storage and CDN
 - **Firebase Cloud Functions** - Server-side logic and notifications
 - **Unity AR Foundation** - Augmented reality framework
@@ -376,21 +374,7 @@ MyCity allows users to **visualize potential city improvements** using augmented
 - **Crash Reporting** - Automated error detection
 - **Usage Analytics** - Feature adoption analysis
 
-## 🔐 Privacy & Security
 
-### 🛡️ Data Protection
-- **Location Privacy** - Granular location sharing controls
-- **Content Moderation** - Automated and manual review
-- **User Safety** - Block and report functionality
-- **Data Encryption** - Secure data transmission
-- **GDPR Compliance** - European privacy regulation support
-
-### 🔒 Security Features
-- **Authentication** - Multi-factor authentication support
-- **Authorization** - Role-based access control
-- **Content Filtering** - Inappropriate content detection
-- **Spam Prevention** - Automated spam detection
-- **Account Security** - Secure password requirements
 
 ## 📱 Platform Support
 
